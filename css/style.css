@@ -202,7 +202,8 @@ h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #50d8af;
+  /*color: #50d8af;*/
+  color: #ffffff;
   text-decoration: italic;
 }
 
@@ -622,7 +623,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #d21404;
-  background: linear-gradient(45deg, #d21404 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #d21404 0%, #d21404 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -713,15 +714,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item h2 {
   /*color: #ffffff;*/
-  color: #000000;
-  font-size: 24px;
+  color: #c83200;
+  font-size: 40px;
   margin: 0;
   text-transform: capitalize;
   font-weight: 700;
 }
 
 #portfolio .portfolio-item img {
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.1s;
   width: 100%;
 }
 
